@@ -19,13 +19,15 @@
   
 
  
-  <button href="#">สมัครสมาชิก</button>
-  <button href="#">ปรึกษาแพทย์ VDO CALL</button>
+  <button class but href="#">สมัครสมาชิก</button>
+  <button class but ref="#">ปรึกษาแพทย์ VDO CALL</button>
   
 </div>
 
 <div class="footer">
-  <p>EYES TELEMEDICINE</p>
+  <p>EYES TELEMEDICINE</p>  
+  <p>WEB APPLICATION</p>
+   <h1>Contact</h1>
 </div>
 
   </body>
@@ -68,7 +70,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
+  background-color: #f5faff;
 }
 
 /* Style the topnav links */
@@ -83,21 +85,47 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(124, 124, 124);
   color: black;
 }
 
 /* Style the content */
 .content {
+  
   background-color: rgb(255, 251, 251);
   padding: 10px;
   height: 447px; /* Should be removed. Only for demonstration */
+
+}
+.content button{
+ 
+  background-color: #c2390fcc;
+  border: none;
+  color: white;
+  padding: 7px 14px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  
 }
 
 /* Style the footer */
 .footer {
   background-color: #F0F8FF;
-  padding: 30px;
+  padding: 5px;
+}
+.footer p{
+  text-align:left;
+  font-size: 18px;
+}
+.footer h1{
+    text-align:right;
+  font-size: 11px;
 }
 
 </style>
